@@ -10,8 +10,16 @@ List<GameDto> games =
     new(3, "Call of Duty", "FPS", 16.19M, new DateOnly(2004, 6, 5))
 ];
 
+// GET /games
 app.MapGet("games", () => games);
 
-app.MapGet("/", () => "Hello World!");
+// GET /games/1
+app.MapGet(
+    "games/{id}",
+    (int id) =>
+    {
+        return games.Find(game => game.Id == id);
+    }
+);
 
 app.Run();
