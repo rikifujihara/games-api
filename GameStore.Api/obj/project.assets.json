@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HB946SW\\.nuget\\packages\\": {}
+    "/Users/rikifujihara/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HB946SW\\workspace\\learning\\dotnet\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+      "projectUniqueName": "/Users/rikifujihara/code/dotnet/games-api/GameStore.Api/GameStore.Api.csproj",
       "projectName": "GameStore.Api",
-      "projectPath": "C:\\Users\\HB946SW\\workspace\\learning\\dotnet\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
-      "packagesPath": "C:\\Users\\HB946SW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HB946SW\\workspace\\learning\\dotnet\\GameStore\\GameStore.Api\\obj\\",
+      "projectPath": "/Users/rikifujihara/code/dotnet/games-api/GameStore.Api/GameStore.Api.csproj",
+      "packagesPath": "/Users/rikifujihara/.nuget/packages/",
+      "outputPath": "/Users/rikifujihara/code/dotnet/games-api/GameStore.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HB946SW\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/rikifujihara/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

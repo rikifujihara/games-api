@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "33LJGETvNhJzOoN+1GhSGZcxmvQe8a5Cy2Ehp8MSMxL3MwiBMGhHAT2BpMAl6eVJ9AO7eK6cAECSt3DI3Q7NHg==",
+  "dgSpecHash": "B3kggfuP+dVJGJqv3D407rujzijumaf4nZgTiY69OR2I0LjN5m1ldVA7I/zpk/zcBOopjliTKMaEbAWlLOBE7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HB946SW\\workspace\\learning\\dotnet\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+  "projectFilePath": "/Users/rikifujihara/code/dotnet/games-api/GameStore.Api/GameStore.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
