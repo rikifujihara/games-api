@@ -53,6 +53,15 @@ public static class ReviewsEndpoints
             }
         );
 
+        group.MapDelete("reviews/{id}", async (int id, GameStoreContext dbContext) =>
+        {
+            await dbContext.Reviews
+                        .Where(review => review.Id == id)
+                        .ExecuteDeleteAsync();
+
+            return Results.NoContent();
+        });
+
         return group;
     }
 }
