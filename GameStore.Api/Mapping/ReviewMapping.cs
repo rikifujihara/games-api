@@ -15,6 +15,17 @@ public static class ReviewMapping
             Description = review.Description
         };
     }
+
+    public static Review ToEntity(this UpdateReviewDto review, int id)
+    {
+        return new Review()
+        {
+            Id = id,
+            GameId = review.GameId,
+            Stars = review.Stars,
+            Description = review.Description
+        };
+    }
     public static ReviewDetailsDto ToDto(this Review review)
     {
         return new ReviewDetailsDto(review.Id, review.GameId, review.Stars, review.Description);
