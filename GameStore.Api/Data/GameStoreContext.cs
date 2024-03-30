@@ -10,6 +10,8 @@ public class GameStoreContext(DbContextOptions<GameStoreContext> options)
 
     public DbSet<Genre> Genres => Set<Genre>();
 
+    public DbSet<Review> Reviews => Set<Review>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Genre>().HasData(
