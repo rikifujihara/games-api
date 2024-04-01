@@ -147,5 +147,5 @@ PUT - {baseurl}/games/reviews/3
     "stars":4,
     "description":"Good graphics, story gradually gets better"
 }
-
+```
 DEL - {baseurl}/games/reviews/3
