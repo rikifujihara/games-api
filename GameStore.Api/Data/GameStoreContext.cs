@@ -19,7 +19,7 @@ public class GameStoreContext(DbContextOptions<GameStoreContext> options)
             new { Id = 2, Name = "Roleplaying" },
             new { Id = 3, Name = "Sports" },
             new { Id = 4, Name = "Racing" },
-            new { Id = 5, Name = "Kinds and Family" }
+            new { Id = 5, Name = "Kids and Family" }
         );
     }
 }
